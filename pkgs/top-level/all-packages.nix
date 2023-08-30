@@ -32608,6 +32608,8 @@ with pkgs;
     withMpris = stdenv.isLinux;
   };
 
+  spotube = callPackage ../applications/audio/spotube { };
+
   srain = callPackage ../applications/networking/irc/srain { };
 
   streamdeck-ui = callPackage ../applications/misc/streamdeck-ui { };
