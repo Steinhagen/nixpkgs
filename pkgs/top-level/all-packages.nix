@@ -31365,6 +31365,8 @@ with pkgs;
 
   doodle = callPackage ../applications/search/doodle { };
 
+  dorion = callPackage ../applications/networking/instant-messengers/dorion { };
+
   dr14_tmeter = callPackage ../applications/audio/dr14_tmeter { };
 
   dracut = callPackage ../os-specific/linux/dracut { };
