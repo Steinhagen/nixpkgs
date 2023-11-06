@@ -410,6 +410,12 @@ lib.mapAttrs mkLicense ({
     free = false;
   };
 
+  colg = {
+    fullName = "CrossOver License Grant";
+    url = "https://www.codeweavers.com/crossover/eula/";
+    free = false;
+  };
+
   cpal10 = {
     spdxId = "CPAL-1.0";
     fullName = "Common Public Attribution License 1.0";
