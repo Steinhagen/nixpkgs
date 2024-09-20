@@ -17,8 +17,6 @@
   proton-vpn-local-agent,
   proton-vpn-logger,
   proton-vpn-network-manager,
-  proton-vpn-network-manager-openvpn,
-  proton-vpn-network-manager-wireguard,
   proton-vpn-session,
   pycairo,
   pygobject3,
@@ -69,8 +67,6 @@ buildPythonApplication rec {
     proton-vpn-local-agent
     proton-vpn-logger
     proton-vpn-network-manager
-    proton-vpn-network-manager-openvpn
-    proton-vpn-network-manager-wireguard
     proton-vpn-session
     pycairo
     pygobject3
