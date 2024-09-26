@@ -6,7 +6,6 @@
   setuptools,
   networkmanager,
   proton-vpn-api-core,
-  proton-vpn-killswitch,
   proton-vpn-logger,
   pycairo,
   pygobject3,
@@ -39,7 +38,6 @@ buildPythonPackage rec {
     # Needed here for the NM namespace
     networkmanager
     proton-vpn-api-core
-    proton-vpn-killswitch
     proton-vpn-logger
     pycairo
     pygobject3

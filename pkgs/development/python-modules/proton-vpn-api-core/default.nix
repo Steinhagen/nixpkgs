@@ -7,7 +7,6 @@
   jinja2,
   proton-core,
   proton-vpn-logger,
-  proton-vpn-killswitch,
   pynacl,
   aiohttp,
   pyopenssl,
@@ -31,7 +30,9 @@ buildPythonPackage rec {
     hash = "sha256-YdBsA8qKcWpR+L/I9rEFntR448kaxEjYuGDPS1ynsMU=";
   };
 
-  build-system = [ setuptools ];
+  build-system = [
+    setuptools
+  ];
 
   dependencies = [
     cryptography
@@ -40,13 +41,13 @@ buildPythonPackage rec {
     pynacl
     proton-core
     proton-vpn-logger
-    proton-vpn-killswitch
     sentry-sdk
   ];
 
   pythonImportsCheck = [
     "proton.vpn.core"
     "proton.vpn.connection"
+    "proton.vpn.killswitch.interface"
     "proton.vpn.session"
   ];
 
