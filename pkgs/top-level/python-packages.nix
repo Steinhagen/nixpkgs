@@ -10728,8 +10728,6 @@ self: super: with self; {
 
   proton-vpn-network-manager = callPackage ../development/python-modules/proton-vpn-network-manager { };
 
-  proton-vpn-session = callPackage ../development/python-modules/proton-vpn-session { };
-
   protonup-ng = callPackage ../development/python-modules/protonup-ng { };
 
   protonvpn-nm-lib = callPackage ../development/python-modules/protonvpn-nm-lib {

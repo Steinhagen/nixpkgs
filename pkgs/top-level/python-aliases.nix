@@ -414,6 +414,7 @@ mapAliases ({
   proton-vpn-connection = throw "proton-vpn-connection functionality was integrated in the proton-vpn-api-core module"; # added 2024-09-26
   proton-vpn-network-manager-openvpn = throw "proton-vpn-network-manager-openvpn functionality was integrated in the proton-vpn-network-manager module"; # added 2024-09-20
   proton-vpn-network-manager-wireguard = throw "proton-vpn-network-manager-wireguard functionality was integrated in the proton-vpn-network-manager module"; # added 2024-09-20
+  proton-vpn-session = throw "proton-vpn-session functionality was integrated in the proton-vpn-api-core module"; # added 2024-09-26
   proxy_tools = proxy-tools; # added 2023-11-05
   pur = throw "pur has been renamed to pkgs.pur"; # added 2021-11-08
   pushbullet = pushbullet-py;  # Added 2022-10-15

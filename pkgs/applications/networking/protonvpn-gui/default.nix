@@ -16,7 +16,6 @@
   proton-vpn-local-agent,
   proton-vpn-logger,
   proton-vpn-network-manager,
-  proton-vpn-session,
   pycairo,
   pygobject3,
   withIndicator ? true,
@@ -65,7 +64,6 @@ buildPythonApplication rec {
     proton-vpn-local-agent
     proton-vpn-logger
     proton-vpn-network-manager
-    proton-vpn-session
     pycairo
     pygobject3
   ];
