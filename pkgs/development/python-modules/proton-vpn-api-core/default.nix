@@ -3,8 +3,8 @@
   buildPythonPackage,
   fetchFromGitHub,
   setuptools,
+  jinja2,
   proton-core,
-  proton-vpn-connection,
   proton-vpn-logger,
   proton-vpn-killswitch,
   proton-vpn-session,
@@ -30,15 +30,15 @@ buildPythonPackage rec {
 
   dependencies = [
     distro
+    jinja2
     proton-core
-    proton-vpn-connection
     proton-vpn-logger
     proton-vpn-killswitch
     proton-vpn-session
     sentry-sdk
   ];
 
-  pythonImportsCheck = [ "proton.vpn.core" ];
+  pythonImportsCheck = [ "proton.vpn.core" "proton.vpn.connection" ];
 
   nativeCheckInputs = [
     pytestCheckHook

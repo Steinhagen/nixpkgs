@@ -7,7 +7,6 @@
   networkmanager,
   proton-core,
   proton-vpn-api-core,
-  proton-vpn-connection,
   proton-vpn-local-agent,
   pycairo,
   pygobject3,
@@ -42,7 +41,6 @@ buildPythonPackage rec {
     networkmanager
     proton-core
     proton-vpn-api-core
-    proton-vpn-connection
     proton-vpn-local-agent
     pycairo
     pygobject3
