@@ -57,6 +57,7 @@ buildPythonPackage rec {
 
   pythonImportsCheck = [
     "proton.vpn.backend.linux.networkmanager"
+    "proton.vpn.backend.linux.networkmanager.killswitch.default"
     "proton.vpn.backend.linux.networkmanager.killswitch.wireguard"
   ];
 

@@ -414,6 +414,7 @@ mapAliases ({
   proton-keyring-linux-secretservice = throw "proton-keyring-linux-secretservice functionality was integrated in the proton-keyring-linux module"; # added 2024-10-09
   proton-vpn-connection = throw "proton-vpn-connection functionality was integrated in the proton-vpn-api-core module"; # added 2024-09-26
   proton-vpn-killswitch = throw "proton-vpn-killswitch functionality was integrated in the proton-vpn-api-core module"; # added 2024-09-26
+  proton-vpn-killswitch-network-manager = throw "proton-vpn-killswitch-network-manager functionality was integrated in the proton-vpn-network-manager module"; # added 2024-10-09
   proton-vpn-killswitch-network-manager-wireguard = throw "proton-vpn-killswitch-network-manager-wireguard functionality was integrated in the proton-vpn-network-manager module"; # added 2024-10-09
   proton-vpn-network-manager-openvpn = throw "proton-vpn-network-manager-openvpn functionality was integrated in the proton-vpn-network-manager module"; # added 2024-09-20
   proton-vpn-network-manager-wireguard = throw "proton-vpn-network-manager-wireguard functionality was integrated in the proton-vpn-network-manager module"; # added 2024-09-20

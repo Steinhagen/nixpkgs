@@ -10,7 +10,6 @@
   proton-core,
   proton-keyring-linux,
   proton-vpn-api-core,
-  proton-vpn-killswitch-network-manager,
   proton-vpn-local-agent,
   proton-vpn-logger,
   proton-vpn-network-manager,
@@ -56,7 +55,6 @@ buildPythonApplication rec {
     proton-core
     proton-keyring-linux
     proton-vpn-api-core
-    proton-vpn-killswitch-network-manager
     proton-vpn-local-agent
     proton-vpn-logger
     proton-vpn-network-manager
