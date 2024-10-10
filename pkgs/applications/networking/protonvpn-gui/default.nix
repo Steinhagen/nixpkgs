@@ -9,7 +9,6 @@
   packaging,
   proton-core,
   proton-keyring-linux,
-  proton-keyring-linux-secretservice,
   proton-vpn-api-core,
   proton-vpn-killswitch-network-manager,
   proton-vpn-local-agent,
@@ -56,7 +55,6 @@ buildPythonApplication rec {
     packaging
     proton-core
     proton-keyring-linux
-    proton-keyring-linux-secretservice
     proton-vpn-api-core
     proton-vpn-killswitch-network-manager
     proton-vpn-local-agent
