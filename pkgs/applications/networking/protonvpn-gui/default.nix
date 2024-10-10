@@ -11,7 +11,6 @@
   proton-keyring-linux,
   proton-vpn-api-core,
   proton-vpn-local-agent,
-  proton-vpn-logger,
   proton-vpn-network-manager,
   pycairo,
   pygobject3,
@@ -56,7 +55,6 @@ buildPythonApplication rec {
     proton-keyring-linux
     proton-vpn-api-core
     proton-vpn-local-agent
-    proton-vpn-logger
     proton-vpn-network-manager
     pycairo
     pygobject3

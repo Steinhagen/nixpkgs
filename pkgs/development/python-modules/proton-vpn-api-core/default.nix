@@ -6,7 +6,6 @@
   setuptools,
   jinja2,
   proton-core,
-  proton-vpn-logger,
   pynacl,
   aiohttp,
   pyopenssl,
@@ -40,7 +39,6 @@ buildPythonPackage rec {
     jinja2
     pynacl
     proton-core
-    proton-vpn-logger
     sentry-sdk
   ];
 
@@ -48,6 +46,7 @@ buildPythonPackage rec {
     "proton.vpn.core"
     "proton.vpn.connection"
     "proton.vpn.killswitch.interface"
+    "proton.vpn.logging"
     "proton.vpn.session"
   ];
 
