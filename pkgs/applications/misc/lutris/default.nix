@@ -75,13 +75,13 @@ let
 in
 buildPythonApplication rec {
   pname = "lutris-unwrapped";
-  version = "0.5.17";
+  version = "unstable-2024-10-16";
 
   src = fetchFromGitHub {
     owner = "lutris";
     repo = "lutris";
-    rev = "v${version}";
-    hash = "sha256-Tr5k5LU0s75+1B17oK8tlgA6SlS1SHyyLS6UBKadUmw=";
+    rev = "544661bd05d4ce2c291cc026c5d885da14c1ef0b";
+    hash = "sha256-H3AIPkC1tQM+MGhgIMZy+O/6PMqCNeS6kSjxUJEbmI0=";
   };
 
   nativeBuildInputs = [ wrapGAppsHook3 gobject-introspection ];
